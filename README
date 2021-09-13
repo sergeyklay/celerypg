@@ -8,6 +8,10 @@ Running a task after all tasks have been completed
 
     $ docker run -d -p 6379:6379 redis
 
-2. Run the worker instance:
+2. Run the consumer (worker) instance:
 
     $ celery -A workflow worker --loglevel=INFO
+
+3. Run the producer:
+
+    $ python -m workflow.producer
