@@ -22,16 +22,18 @@ def test_complex():
     tasks = []
 
     for i in range(10):
+        # Use ``task.s()`` here to create task signature.
         tasks.append(power.s(i, 2))
 
-    # The ``group``` primitive is a signature that takes
+    # The ``group`` primitive is a signature that takes
     # a list of tasks that should be applied in parallel.
     tasks = group(tasks)
 
+    # Use ``task.s()`` here to create task signature.
     callback = amass.s()
 
-    # A ``chord``` is just like a ``group``` but with a callback.
-    # A ``chord``` consists of a header ``group``` and a body,
+    # A ``chord`` is just like a ``group`` but with a callback.
+    # A ``chord`` consists of a header ``group`` and a body,
     # where the body is a task that should execute after all of the
     # tasks in the header are complete.
     result = chord(tasks)(callback)
