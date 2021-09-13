@@ -1,0 +1,13 @@
+Celery playgroud
+================
+
+Running a task after all tasks have been completed
+--------------------------------------------------
+
+1. Start redis:
+
+    $ docker run -d -p 6379:6379 redis
+
+2. Run the worker instance:
+
+    $ celery -A workflow worker --loglevel=INFO
