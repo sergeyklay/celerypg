@@ -5,11 +5,9 @@ from .tasks import amass, power
 
 def main():
     # Create 10 tasks signatures.
-    tasks = [power.s(i, 2) for i in range(10)]
-
     # The ``group`` primitive is a signature that takes
     # a list of tasks that should be applied in parallel.
-    tasks = group(tasks)
+    tasks = group([power.s(i, 2) for i in range(10)])
 
     # Create a callback.
     callback = amass.s()
