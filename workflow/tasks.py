@@ -16,5 +16,4 @@ def power(value, expo):
 
 @app.task
 def amass(values):
-    print(len(values))
-    print(values)
+    print(sum(values))
