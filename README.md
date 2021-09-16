@@ -7,8 +7,10 @@ My primary playground for doing Celery trials. Hence, the name.
 
 ## Contents
 
+
 - **Workflow Primitives**
-  - [`chord`][workflow]: Running a task after all tasks have been completed
+  - [`chord`][workflow]: Performing a task after all tasks have been completed
+  - [`chain`][chain]: Performing chord with group of chains and a callback at the end
 
 ## Prerequisites
 
@@ -55,4 +57,5 @@ For more see [LICENSE][license] file.
 [actions link]: https://github.com/sergeyklay/celerypg/actions/workflows/cs.yml
 [actions-badge]: https://github.com/sergeyklay/celerypg/actions/workflows/cs.yml/badge.svg
 [workflow]: https://github.com/sergeyklay/celerypg/tree/master/workflow
+[chain]: https://github.com/sergeyklay/celerypg/tree/master/chain
 [license]: https://github.com/sergeyklay/celerypg/blob/master/LICENSE
