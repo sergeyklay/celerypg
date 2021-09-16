@@ -50,8 +50,9 @@ $ python -m pip install -r requirements.txt
 ## License
 
 This is free and unencumbered software released into the public domain.
-For more see [LICENSE](./LICENSE) file.
+For more see [LICENSE][license] file.
 
-[actions link]: https://github.com/sergeyklay/celerypg/actions
+[actions link]: https://github.com/sergeyklay/celerypg/actions/workflows/cs.yml
 [actions-badge]: https://github.com/sergeyklay/celerypg/actions/workflows/cs.yml/badge.svg
 [workflow]: https://github.com/sergeyklay/celerypg/tree/master/workflow
+[license]: https://github.com/sergeyklay/celerypg/blob/master/LICENSE
