@@ -21,8 +21,7 @@ requirements:
 - Redis or Docker
 
 The project should work the same on the all major systems macOs, Linux,
-Windows or WSL and in general you don't need Docker, Nginx, RDBMS or VM to
-play with project at you local environment.
+Windows or WSL.
 
 ## Installing
 
