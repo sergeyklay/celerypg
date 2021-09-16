@@ -1,8 +1,8 @@
+import random
 from time import sleep
 
-import random
-
 from .celery import app
+
 
 @app.task
 def power(value, expo):
