@@ -1,5 +1,7 @@
 # Celery Playgroud
 
+[![Code Linting][actions-badge]][actions link]
+
 My primary playground for doing Celery trials. Hence, the name.
 
 
@@ -50,4 +52,6 @@ $ python -m pip install -r requirements.txt
 This is free and unencumbered software released into the public domain.
 For more see [LICENSE](./LICENSE) file.
 
+[actions link]: https://github.com/sergeyklay/celerypg/actions
+[actions-badge]: https://github.com/sergeyklay/celerypg/workflows/cs/badge.svg
 [workflow]: https://github.com/sergeyklay/celerypg/tree/master/workflow
