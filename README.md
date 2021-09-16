@@ -53,5 +53,5 @@ This is free and unencumbered software released into the public domain.
 For more see [LICENSE](./LICENSE) file.
 
 [actions link]: https://github.com/sergeyklay/celerypg/actions
-[actions-badge]: https://github.com/sergeyklay/celerypg/workflows/cs/badge.svg
+[actions-badge]: https://github.com/sergeyklay/celerypg/actions/workflows/cs.yml/badge.svg
 [workflow]: https://github.com/sergeyklay/celerypg/tree/master/workflow
